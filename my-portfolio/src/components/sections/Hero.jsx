@@ -4,7 +4,7 @@ import { Bio } from '../../data/constants';
 import Typewriter from 'typewriter-effect';
 // import HeroImg from '../../vk.jpg';
 import HeroBgAnimation from '../HeroBgAnimation';
-import {Tilt} from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { headContainerAnimation, headContentAnimation, headTextAnimation } from '../../utils/motion';
 import StarCanvas from '../canvas/Stars';
