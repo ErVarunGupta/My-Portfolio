@@ -103,18 +103,17 @@ const MobileIcon = styled.div`
 `;
 
 const MobileMenu = styled.ul`
-  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   gap: 16px;
   padding: 0 6px;
   list-style: none;
-  width: 100%;
+  width: 80%;
   padding: 12px 40px 24px 40px;
   background: ${({ theme }) => theme.card_light + 99};
   position: absolute;
-  top: 80px;
+  top: 70px;
   right: 0;
 
   transition: all 0.6s ease-in-out;
